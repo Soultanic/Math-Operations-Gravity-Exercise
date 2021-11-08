@@ -1,0 +1,13 @@
+# Luis Berrios 11/4/21 Create a program that calaculates distance of a suspened opject falling given a user input gravity constant and time.
+print("This program will calculate the distance a suspened object falls","given a gravity and time")
+
+import math
+gravity=input("What do you want for gravity")
+gravity=int("gravity")
+fps=input("What is fps")
+fps=int("fps")
+frame=input("What is frame")
+frame=int("frame")
+time=frame/fps
+distance=.5*gravity*time**2
+print("It will drop", distance, "pixels in", time, "seconds")
